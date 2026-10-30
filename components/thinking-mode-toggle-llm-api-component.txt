@@ -1,0 +1,1 @@
+Adds Thinking on/off feature to an app that connects to a local LLM api
