@@ -1,0 +1,40 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "providers": {
+    "strata": {
+      "package": "@ai-sdk/openai-compatible",
+      "name": "Strata",
+      "settings": {
+        "baseURL": "http://127.0.0.1:47831/v1",
+        "apiKey": "none"
+      },
+      "models": {
+        "coder-iq1_m": {
+          "name": "qwen3.8-flash-next-coder-iq1_m"
+        }
+      }
+    }
+  },
+  "permissions": [
+    {
+      "action": "read",
+      "resource": "*.agent-ignore*",
+      "effect": "deny"
+    },
+    {
+      "action": "edit",
+      "resource": "*.agent-ignore*",
+      "effect": "deny"
+    },
+    {
+      "action": "glob",
+      "resource": "*.agent-ignore*",
+      "effect": "deny"
+    },
+    {
+      "action": "grep",
+      "resource": "*.agent-ignore*",
+      "effect": "deny"
+    }
+  ]
+}
