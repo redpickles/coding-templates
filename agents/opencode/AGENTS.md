@@ -1,3 +1,5 @@
+version 1.0.5
+
 # Coding & Documentation Guidelines
 
 ## 1. Project Memory (`ai_state.md`)
