@@ -1,0 +1,17 @@
+{
+    "exclude_folders": [
+        "node_modules",
+        ".git",
+        "dist",
+        "build",
+        "temp",
+        "archive",
+        ".vscode",
+        "__pycache__",
+        "venv",
+        ".venv",
+        ".agent-ignore",
+        "coding-templates",
+        "coding projects"
+    ]
+}
