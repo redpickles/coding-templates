@@ -1,4 +1,4 @@
-version 1.0.5
+version 1.0.6
 
 # Coding & Documentation Guidelines
 
@@ -47,5 +47,5 @@ Maintain `ai_state.md` in the project root as compact working memory for a futur
 - Bump the version only for significant feature additions or breaking changes. Do not bump for minor bug fixes, refactors, documentation changes, or minor routine maintenance.
 - When bumping, update the single source of truth and any derived references (badges, changelogs) in the same change.
 - If no single source of truth verson number is currently declared in the app, start the version with 0.1.0.0
-- Bump version for Regular or minor updates --> eg. 0.1.0.1,
-- Bump version for Major updates, new features --> eg. 0.1.1.0
+- Bump version for regular or minor updates, minor new features --> eg. 0.1.0.1,
+- Bump version for major updates, major new features --> eg. 0.1.1.0
